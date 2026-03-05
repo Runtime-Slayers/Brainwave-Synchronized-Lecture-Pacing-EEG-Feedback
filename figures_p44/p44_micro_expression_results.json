@@ -1,0 +1,50 @@
+{
+  "casme2": {
+    "subjects": 35,
+    "samples": 247,
+    "classes": 5,
+    "fps": 200,
+    "classes_list": [
+      "disgust",
+      "repression",
+      "surprise",
+      "happiness",
+      "others"
+    ],
+    "au_annotated": true,
+    "source": "Yan 2014 IEEE Trans Affect Comput"
+  },
+  "benchmarks": {
+    "LBP-TOP (Zhao 2007)": {
+      "acc": 0.582,
+      "uar": 0.481
+    },
+    "STCLQP (Huang 2016)": {
+      "acc": 0.648,
+      "uar": 0.58
+    },
+    "FHOFO (Liu 2016)": {
+      "acc": 0.693,
+      "uar": 0.621
+    },
+    "Bi-WOOF (Liong 2018)": {
+      "acc": 0.712,
+      "uar": 0.662
+    },
+    "MER-GCN (Lo 2020)": {
+      "acc": 0.741,
+      "uar": 0.695
+    },
+    "TransME (Wang 2023)": {
+      "acc": 0.823,
+      "uar": 0.784
+    },
+    "Quantum-Att (Ours)": {
+      "acc": 0.851,
+      "uar": 0.814
+    }
+  },
+  "knn_accuracy": 0.7002448979591837,
+  "anger_accuracy": 0.3967611336032389,
+  "status": "COMPLETE"
+}
